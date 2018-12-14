@@ -27,18 +27,18 @@
        for(var k=0;k<studobj.length;k++)
        {
          
-         document.writeln(studobj[k].name+"  "+studobj[k].sum+" "+studobj[k].avg);
+         document.writeln("<br>"+studobj[k].name+"  "+studobj[k].sum+" "+studobj[k].avg);
       }
       studobj.sort(function(a,b){return b.sum-a.sum});
        for(var i=0;i<studobj.length;i++)
        {
-         document.writeln(studobj[i].name+"  "+studobj[i].sum);
+         document.writeln("<br>"+studobj[i].name+"  "+studobj[i].sum);
       }
      studobj.sort(function(a,b){return b.avg-a.avg});
        for(var k=0;k<studobj.length;k++)
        {
          
-         document.writeln(studobj[k].name+"  "+studobj[k].avg);
+         document.writeln("<br>"+studobj[k].name+"  "+studobj[k].avg);
       }
      studobj.sort(function(a, b){
      if(a.name < b.name) 
@@ -49,7 +49,7 @@
      for(var k=0;k<studobj.length;k++)
        {
          
-         document.writeln(studobj[k].name+"  "+studobj[k].avg+"  "+studobj[k].sum);
+         document.writeln("<br>"+studobj[k].name+"  "+studobj[k].avg+"  "+studobj[k].sum);
       }
         
      
